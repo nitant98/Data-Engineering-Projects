@@ -1,0 +1,20 @@
+{
+	"name": "AzureDatabricksNitant",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDatabricks",
+		"typeProperties": {
+			"domain": "https://adb-8647297190256106.6.azuredatabricks.net",
+			"accessToken": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVaultDataFactory",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "Databricks-AccessToken"
+			},
+			"existingClusterId": "0201-203934-4pi3b38c"
+		}
+	}
+}

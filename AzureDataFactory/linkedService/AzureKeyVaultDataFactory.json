@@ -1,0 +1,11 @@
+{
+	"name": "AzureKeyVaultDataFactory",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://formula1-key-nitant2.vault.azure.net/"
+		}
+	}
+}
